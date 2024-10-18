@@ -1,0 +1,215 @@
+id,title,selftext,score,num_comments,author,created_utc,url,upvote_ratio,over_18,edited,spoiler,stickied
+1g4mkz4,Some advice for job seekers from someone on the other side,"
+Hopefully this helps some. I’m a principal with 10 YOE and am currently interviewing people to fill a senior level role. Others may chime in with differing viewpoints.
+
+Something I keep seeing is that applicants keep focusing on technical skills. That’s not what interviewers want to hear unless it’s specifically a tech screen. You need to focus on business value.
+
+Data is a product - how are you modeling to create a good UX for consumers? How are you building flexibility to make writing queries easier?  What processes are you automating to take repetitive work off the table?
+
+If you made it to me then I assume you can write Python and sql. The biggest thing we’re looking for is understanding the business and applying value - not a technical know it all who can’t communicate with data consumers. Succinctness is good. I’ll ask follow up questions on things that are intriguing. Look up BLUF (bottom line up front) communication and get to the point. 
+
+If you need to practice mock interviews, do it. You can’t really judge a book by its cover but interviewing is basically that. So make a damn good cover.
+
+Curious what any other people conducting interviews have seen as trends.",148,33,molodyets,2024-10-16 00:19:18,https://www.reddit.com/r/dataengineering/comments/1g4mkz4/some_advice_for_job_seekers_from_someone_on_the/,0,False,False,False,False
+1g4x2us,Experimental new Spark UI - what do you think?,,23,9,owenrh,2024-10-16 11:27:37,https://www.youtube.com/watch?v=Miw__gVsxmY,0,False,False,False,False
+1g4n4zf,I need help copying a large volume of data to a SQL database.,"We need to copy a large volume of data from Azure Storage to a SQL database daily.  We have over 200 tables to copy. The client provides the data in either Parquet or TXT format. We've been testing with Parquet and Azure Data Factory, but it currently takes over 2 hours to complete. Our goal is to reduce this to 1 hour.  We truncate the tables before copying. Do you have any suggestions or ideas for optimizing this process?",18,37,stock_daddy,2024-10-16 00:46:49,https://www.reddit.com/r/dataengineering/comments/1g4n4zf/i_need_help_copying_a_large_volume_of_data_to_a/,0,False,False,False,False
+1g50jwi,Should we use a declarative data stack?,,16,5,sspaeti,2024-10-16 14:21:30,https://www.rilldata.com/blog/the-rise-of-the-declarative-data-stack,0,False,False,False,False
+1g514mp,The 5 most common and frustrating testing mistakes I see in data,,14,4,ivanovyordan,2024-10-16 14:46:54,https://datagibberish.com/p/5-common-testing-mistakes,0,False,False,False,False
+1g50jwh,Tutorial: Getting Started with Data Analytics Using PyArrow in Python,,7,5,AMDataLake,2024-10-16 14:21:30,https://amdatalakehouse.substack.com/p/getting-started-with-data-analytics?r=h4f8p,0,False,False,False,False
+1g4vwsm,"Data Analyst vs Data Engineer — Stuck in My Current Role, Need Advice","Hi everyone,
+
+I’m seeking some career guidance as I’m feeling a bit stuck and unsure of my next move.
+
+I’ve been working at a service-based company for nearly 6 years (will complete 6 years in 3 months). My current role is as a Database Administrator, mainly working with IBM Db2, and I also have some experience in data analysis. I’m proficient in SQL and Python, but I’ve realized that I haven’t had much exposure beyond that in my current organization, and it’s starting to hold me back.
+
+I’m now looking to switch careers but am confused about whether to pursue a role as a **Data Analyst** or a **Data Engineer**. I know that both of these paths would require me to learn more than just SQL and Python, and I’m ready to upskill, but I’m unsure which path would be the best fit for me in the long run.
+
+Has anyone else been in a similar position? Which role has more growth potential, and what additional skills should I focus on learning for each path? I would really appreciate any insights or advice from those of you who have experience in either of these fields.
+
+Thanks in advance for your help!",7,12,Impossible_Classic21,2024-10-16 10:11:41,https://www.reddit.com/r/dataengineering/comments/1g4vwsm/data_analyst_vs_data_engineer_stuck_in_my_current/,0,False,False,False,False
+1g52cgt,S3 to BQ,"I have a use case where my infra is in AWS but i want to use BigQuery as a warehouse. I explored data transfer from S3 to GCS but there is S3 egress cost associated with it and I often time need to load data at less than hourly intervals. What is the best practice to use BQ with AWS? What is the least expensive way for batch moving data from AWS to BQ usually hourly but sometimes an  on-demand run should move the data as well. What should be the approach considering costs and best practices.
+
+Note: My S3 bucker and GCS are both in same regions, would it help?",5,5,Mediocre-Cow354,2024-10-16 15:39:12,https://www.reddit.com/r/dataengineering/comments/1g52cgt/s3_to_bq/,0,False,False,False,False
+1g58lov,Data Engineering Grad Student Advice ,"
+Hello Everyone I’m looking for some advice from Engineers :)
+
+I am going back school for a technical master’s degree.  My main career goal is to become a Data Engineer.
+
+Currently, I have a few years of experience as a Business System Analyst. Here’s a few questions I have for Data Engineers: 
+
+
+1.) Would you choose a Computer Science, Data Science or Management Information Systems degree? 
+
+2.) What certifications do you recommend?
+
+3.) Should I focus on a graduate degree, certifications, or work experience in this field? 
+
+4.) How do you stand out to contractors? 
+
+
+
+
+
+",4,2,AlternativeOk8257,2024-10-16 20:02:34,https://www.reddit.com/r/dataengineering/comments/1g58lov/data_engineering_grad_student_advice/,0,False,False,False,False
+1g4zsj2,What’s the best tool to understand more on spark partitioning and performance metrics .,"What’s the best tool to understand more on spark partitioning and performance metrics . Is it only spark ui ? What’s the best practice ?
+Any suggestions would be appreciated. 
+",3,2,Future_Space_8095,2024-10-16 13:47:24,https://www.reddit.com/r/dataengineering/comments/1g4zsj2/whats_the_best_tool_to_understand_more_on_spark/,0,False,False,False,False
+1g4uh4r,Choosing the Right SQL Server Edition and Understanding Backend Data Engineering Costs,"Hello, I'm the first data hire at my company, handling everything from analysis to predictions; basically anything data-related falls under me. We've been in operation for about three years, and while the data volume is still manageable, it's growing rapidly. Currently, we rely heavily on Excel, but we are planning to transition to Microsoft SQL Server soon.
+
+I'm also enrolled in the IBM Data Engineering course, so I'm learning and implementing new skills as I go. For my day-to-day tasks, I mostly use Power BI and Python.
+
+I have two main questions:
+
+Which SQL Server edition should we go for; Standard or Enterprise? We are budgeting, and I need to recommend the right option based on our needs.
+
+What other costs should I anticipate beyond the server? I'm trying to understand the full scope of backend data engineering work; from setup to long-term maintenance. Any insights on licensing, storage, tools, or additional infrastructure costs would be greatly appreciated.
+
+Thanks in advance!
+
+Kindly note that I'm new to data engineering at its core, so if my questions sound a bit amateur, I do apologize. Any advice would be greatly appreciated.",5,12,Lonely_String8097,2024-10-16 08:24:26,https://www.reddit.com/r/dataengineering/comments/1g4uh4r/choosing_the_right_sql_server_edition_and/,0,False,False,False,False
+1g4swcq,Data Quality controls with data in-flight with dbt,"Currently working on dbt with BQ and developing a general mechanism for others to use around implementing data controls with dbt after transformations but before data is written to target tables. Anyone who has dealt with this problem?
+Don't want to put DQ after writing to tables due to obvious reasons of saving on operations and writing costs if data doesn't pass DQ checks. I realise it can be achieved using temporary tables but wondering if there is a better approach. ",4,4,turbokat123,2024-10-16 06:23:16,https://www.reddit.com/r/dataengineering/comments/1g4swcq/data_quality_controls_with_data_inflight_with_dbt/,0,False,False,False,False
+1g4lm6o,Combining Source Data at the Final Layer,"My organization has a lot of data sources and currently, all of our data marts are setup exclusively by source.
+
+We are now being asked to combine the data from multiple sources for a few subject areas. The problem is, we cannot change the existing final views as they sit today.
+
+My thought would be to just create an additional layer on top of our current data marts that combines the requested data together across multiple sources. If the performance is too poor in a view, then we'd have to set up an incremental load into tables and then build views on top of that which I still don't see as an issue.
+
+
+
+Has anyone seen this type of architecture before? All of my google searching and I haven't seen this done anywhere yet. It looks like Data Vault is popular for this type of thing but it also looks like the data sources are normally combined at the start of the transformation process and not at the end. Thank you for your input!",5,2,Soundeth,2024-10-15 23:31:38,https://www.reddit.com/r/dataengineering/comments/1g4lm6o/combining_source_data_at_the_final_layer/,0,False,False,False,False
+1g4kjx6,Tools for large datasets of tabular data,"I need to create a tabular database with **2TB of data**, which could potentially grow to **40TB**. Initially, I will conduct tests on a **local machine** with **4TB of storage**. If the project performs well, the idea is to migrate everything to the **cloud** to accommodate the full dataset.
+
+The data will require **transformations**, both for the **existing files** and for **new incoming ones**, primarily in **CSV format**. These transformations won't be too complex, but they need to support efficient and scalable processing as the volume increases.
+
+I'm looking for **open-source tools** to avoid license-related constraints, with a focus on solutions that can be **scaled on virtual machines** using **parallel processing** to handle large datasets effectively.
+
+**What tools could I use?**",3,6,Annual_Elderberry541,2024-10-15 22:41:15,https://www.reddit.com/r/dataengineering/comments/1g4kjx6/tools_for_large_datasets_of_tabular_data/,0,False,False,False,False
+1g59exj,AI engineering or Data Engineering ,Has been thinking between both lately. I'm switching gears from Finance. Any advice?,4,4,Tayvodenn18,2024-10-16 20:37:23,https://www.reddit.com/r/dataengineering/comments/1g59exj/ai_engineering_or_data_engineering/,0,False,False,False,False
+1g4l3wz,Looking for a Code-Centric Alternative to Azure Data Factory for Remote Data Extraction,"Hi Reddit,
+
+We want to replace Azure Data Factory (ADF) with a more code-centric tool, ideally focused on Python.
+
+ADF’s key advantage for us is managing extraction jobs and loading data into Snowflake from a cloud interface.  
+  
+ADF does a great job of having an agent behind their firewall on their network, allowing us to manage the pipelines remotely.   
+  
+This is critical.
+
+I’d love to move to a solution that lets us create, modify, run, and manage Python jobs in the cloud via an agent or similar setup.   
+  
+Any suggestions for tools that could replace ADF in this way?
+
+Cheers!",3,1,aussiefirebug,2024-10-15 23:07:07,https://www.reddit.com/r/dataengineering/comments/1g4l3wz/looking_for_a_codecentric_alternative_to_azure/,0,False,False,False,False
+1g4im00,"Books or Resources on System Design, Architecture, building Data-y business ‘stuff’?","Hey all,
+
+This is the classic problem I have where I just don’t quite know what to type into Google/ Amazon to get what I’m after so hoping for some suggestions. 
+
+I’ve read fundamentals of data engineering and part way through building data intensive applications which are great. I’m in a role where I’m leading a very small engineering and analytics team in a company that unfortunately, is woefully lacking on technical expertise despite aspiring to be a ‘tech business’. I have some decent sway in the business so wanting to step more into this gap to help steer decisions on things like:
+
+- web analytics tools like posthog etc
+- CDPs (we currently have an underutilised segment and customer.io setup that was put in by some consultants but no one really manages it)
+- integrating various SaaS platforms between our website, Hubspot, Stripe payments, delivery/ fulfilment system (all horribly manual with excels everywhere). Again, our consultants setup what seems to be a decent c# suite of integrations but we’re looking at event grid or other systems that can help with observability
+
+My team and I already hit apis for data, we use databricks, python etc so we can see opportunities to receive webhooks from system a and hit a post endpoint of system b to automate a step that is currently a horrible manual task however, we’re aware of how much potential work there is if we’re not careful. 
+
+Do we use a SaaS product or do we try use Azure logic apps/ event grid. 
+
+How many changes/ updates might we need to handle too, what if something
+
+How would we handle schema changes, process changes etc
+
+Any suggestions would be greatly appreciated!",3,1,Visible_Extension291,2024-10-15 21:13:34,https://www.reddit.com/r/dataengineering/comments/1g4im00/books_or_resources_on_system_design_architecture/,0,False,False,False,False
+1g57gfx,Open Source Technology Stack,"I came across this site for building a developer platform using open source technologies
+
+https://cnoe.io/
+
+Is there an equivalent site for building a data platform. Things like metadata management, etl, streaming, scheduling and orchestration, etc. ",2,0,CDCheerios,2024-10-16 19:12:37,https://www.reddit.com/r/dataengineering/comments/1g57gfx/open_source_technology_stack/,0,False,False,False,False
+1g5788f,"For those of you who have moved into management (and beyond), would/did you consider having an MBA useful for career progression?",See title.,1,8,x1084,2024-10-16 19:02:36,https://www.reddit.com/r/dataengineering/comments/1g5788f/for_those_of_you_who_have_moved_into_management/,0,False,False,False,False
+1g54myd,Fetching Salesforce streaming data using pub/sub api,"Hey All,
+
+I’m trying to employ salesforce pub/sub api’s to write salesforce streaming data into S3 buckets and query the data using Athena. 
+
+This is something new and I’m  struggling to setup an end to end flow using AWS services. Has anyone worked in the past with Pub/Sub api’s and what services in AWS I can use to setup an end to end flow and dump the data into S3.
+
+Any insights or directions much appreciated!",2,0,Competitive_Wheel_78,2024-10-16 17:13:45,https://www.reddit.com/r/dataengineering/comments/1g54myd/fetching_salesforce_streaming_data_using_pubsub/,0,False,False,False,False
+1g4xydz,Data warehouse ,"Just stared learning data warehouse and I have misconception, can I consider the data warehouse as a relational database with OLAP  system? ",2,2,sayyad4b,2024-10-16 12:16:55,https://www.reddit.com/r/dataengineering/comments/1g4xydz/data_warehouse/,0,False,False,False,False
+1g4wrgj,Business Intelligence Research Form,"Hello!  
+I would like to first mention that, after reading the rules, this is not a simple ""please fill in my survey"" post!   
+  
+Although I am using the medium of a form, I think that this is one of the subreddit that contains the most focused / concentrated amount of people who are dedicated to the topic of Business Intelligence and Data Engineer.  
+  
+Through this, I would like to understand more about the Business Intelligence industry (as I come from design standpoint) & its many personas who work on various different sections of the business.  
+  
+The form dives deeper into the softwares used, main functionalities needed and the core problems that come up on a daily basis for someone in the industry, as it has been created after some time of self-research on the subject.  
+  
+I would appreciate anyone who takes part in it, as every opinion is worth a lot.  
+  
+Here is the link to the [Business Intelligence Research form](https://glxq51tthut.typeform.com/to/iHGegiLh).",2,0,Pannazz,2024-10-16 11:07:48,https://www.reddit.com/r/dataengineering/comments/1g4wrgj/business_intelligence_research_form/,0,False,False,False,False
+1g57xov,Career help ,Hi. I have been interviewing for senior DE and AE. My goal is to become a STAFF. I am confused which path do I take to reach it . I know I want to be an individual contributor for a FAANG company. Thanks for the advice . ,1,0,spankbanggang,2024-10-16 19:33:35,https://www.reddit.com/r/dataengineering/comments/1g57xov/career_help/,0,False,False,False,False
+1g545xq,Situational technical questions,"Hello! I have my first technical intervie-w in a week. I'm coming from data science/analyst role so freaking out a bit. I have had little experience in DE tools but probably intermediate in Python and an absolute beginner in SQL, which they are aware of.. The int will consist of a situational technical question which I will have to talk through. Any ideas where I should begin to prepare? Should I try learning more SQL and DE concepts before time or just focus on LCing Python and explaining the relevant projects I've done? Eek",1,1,Glad_Youth_2739,2024-10-16 16:54:16,https://www.reddit.com/r/dataengineering/comments/1g545xq/situational_technical_questions/,0,False,False,False,False
+1g50hhl,Data Engineering pipelines/systems - question about use of them,"Hello all,
+
+I have one question regarding creating data engineering flow/pipeline, but i'll use my personal case.
+
+ 
+
+""I am single data analyst/data engineer in my department where 20% of data i am getting is coming from larger databases (REDLake mostly) or API's , while 80% of data is coming from different excel tables/files that i do ETL in various programs and then visualise.
+
+ 
+
+Is there really a point in creating Data Engineering pipeline/system for my use case?
+
+ 
+
+What are the benefiets if the answer is yes?
+
+ 
+
+The only use case for me in my eyes is if i get more people in my team doing the same/similar job as me...
+
+Thanks upfront!
+
+",1,1,zeni65,2024-10-16 14:18:33,https://www.reddit.com/r/dataengineering/comments/1g50hhl/data_engineering_pipelinessystems_question_about/,0,False,False,False,False
+1g4sqmi,i need help in finding a change in data between two or multiple sets,"I want to paste set of names to the data visualization tool and I want to paste another set of data with same names but change in order but I. Want to know the changes between those two sets how many positions it changed . How can I do that, someone please text me or comment down ",1,5,Ill-Contribution7074,2024-10-16 06:11:56,https://www.reddit.com/r/dataengineering/comments/1g4sqmi/i_need_help_in_finding_a_change_in_data_between/,0,False,False,False,False
+1g55o59,Data Engineer freelancer ,"Anyone looking for freelancer Data Engineer??
+
+Happy to support ",0,3,Scarlet_Wiitch,2024-10-16 17:56:57,https://www.reddit.com/r/dataengineering/comments/1g55o59/data_engineer_freelancer/,0,False,False,False,False
+1g51qaz,🌶️ Why *you* should be using CDC,,0,3,rmoff,2024-10-16 15:13:05,https://dcbl.link/why-cdc7,0,False,False,False,False
+1g51o7z,True?,"I found this post on LinkedIn by Zach Willson, what do you think?
+
+  
+I hate to say it but product manager is the safest role from AI. 
+
+
+
+""Data engineer will feel pressure. 
+
+Analytics engineer will feel less pressure. 
+
+Data scientist will feel even less pressure. 
+
+PM will be elevated. 
+
+CEO will be put on the stratosphere. 
+
+
+
+Why is PM so safe? 
+
+
+
+Strategic roles that involve tons of in person interaction are the safest roles. CEO and founder are also extremely safe from being disrupted. PMs act like mini CEOs over their product areas. 
+
+
+
+Roles that are closer to the business that require more interfacing with stakeholders are safer than roles that are “behind-the-scenes.” 
+
+
+
+This is why I believe analytics engineer roles are safer than data engineer roles. 
+
+
+
+Analytics engineers are closer to the business and require more business acumen to be good at while data engineer roles require more technicals. Technicals are what is getting commoditized by AI. """,0,25,Tayvodenn18,2024-10-16 15:10:30,https://www.reddit.com/r/dataengineering/comments/1g51o7z/true/,0,False,False,False,False
+1g50fjj,25 Best ETL Tools for Data Integration in 2024: A Curated List,,0,5,dani_estuary,2024-10-16 14:16:08,https://estuary.dev/etl-tools-list/,0,False,False,False,False
