@@ -1,7 +1,3 @@
-<html lang="en">
-<head>
-    <title>Reddit ETL Data Engineering Pipeline</title>
-</head>
 <body>
     <h1>Reddit ETL Data Engineering Pipeline</h1>
     <p><strong>Reddit ETL Data Engineering Pipeline</strong> is an automated workflow designed to extract, transform, and load Reddit data, specifically from the "dataengineering" subreddit. The pipeline is built using Apache Airflow, facilitating task scheduling and orchestration. It features the following steps:</p>
